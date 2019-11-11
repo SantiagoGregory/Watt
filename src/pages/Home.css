@@ -1,27 +1,37 @@
 .home-page {
-    /* background-color:purple;  */
+  /* background-color:purple;  */
 }
 
 .watt-about {
-    color: white;
-    background-color: purple;
-    width: 1000px;
-    padding-left: 10px;
+  color: white;
+  background-color: purple;
+  width: 1000px;
+  padding-left: 10px;
 }
 
 .watt {
-    text-align: left;
-    font-size: 400%;
-    line-height: 500%;
+  text-align: left;
+  font-size: 400%;
+  line-height: 500%;
 }
 
 .description {
-    font-size: 200%;
-    line-height: 200%;
+  text-align: left;
+  font-size: 200%;
+  line-height: 200%;
 }
 
 .content {
-    align-content: center;
-    vertical-align: middle;
-    background-image: url(./placeholder.png);
+  align-content: center;
+  vertical-align: bottom;
+  background-image: url(./placeholder.png);
+}
+
+.upload-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%, -50%);
+  transform: translateY(-50%, -50%);
+  width: "70vh";
 }
